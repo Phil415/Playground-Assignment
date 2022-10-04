@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+}
+
+.outerbox {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.innerbox {
+  flex-shrink: 0;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: #9ec5f8;
+}

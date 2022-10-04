@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<style>
+    .innerbox{
+        background-color: {{ color }};
+    }
+</style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <div class="outerbox">
+    {% for i in range(0, count) %}
+        <div class="innerbox"></div>
+    {% endfor %}
+    </div>
+    
+    
+
+
+</body>
+</html>
